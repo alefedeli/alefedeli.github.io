@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Start2impact - Il mio sito</title>
-
+<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -27,8 +27,8 @@
             <div class="container hero-content">
                 <h1>Ciao, mi chiamo <br> Alessandro Fedeli</h1>
                 <h3>Junior E-commerce Manager</h3>
-                <a class="button" href="https://talent.start2impact.it/profile/alessandrofedeli">I miei progetti</a>
-                <div id="idLinkedInIcon" onclick="window.open('https&#58//www.linkedin.com/in/alessandrofedeli/');" title="Alessandro Fedeli">in</div>
+                <a class="button" href="https://talent.start2impact.it/profile/alessandrofedeli" target="_blank">I miei progetti</a>
+                <div class="idLinkedInIcon" onclick="window.open('https&#58//www.linkedin.com/in/alessandrofedeli/');" title="Alessandro Fedeli">in</div>
             </div>
         </section>
 
@@ -47,7 +47,7 @@
               <p class="projects-summary">Ho creato da zero un e-commerce di abbigliamento, focalizzandomi sull'ottimizzazione del conversion rate e sull'aumento dell'average order value dei potenziali clienti.</p>
               <br>
               <br>
-              <a class="button" href="https://bit.ly/3JvwHjW">Guardalo</a>
+              <a class="button" href="https://bit.ly/3JvwHjW" target="_blank">Guardalo</a>
             </div>
             <div class="project-row">
               <img class="facebook-ads" src="assets/img/facebook.png" alt="facebook-ads">
@@ -55,7 +55,7 @@
               <p class="projects-summary">Ho sviluppato una strategia di advertising su Facebook per un e-commerce di bottiglie riutilizzabili, sia da un punto di vista strategico che creativo, a partire dalla costituzione delle buyer personas fino all'ottimizzazione di tutte le fasi del funnel.</p>
               <br>
               <br>
-              <a class="button" href="https://bit.ly/3mIksa1">Guardalo</a>
+              <a class="button" href="https://bit.ly/3mIksa1" target="_blank">Guardalo</a>
             </div>
             <div class="project-row">
               <img class="google-ads" src="assets/img/google.png" alt="google-ads">
@@ -63,16 +63,16 @@
               <p class="projects-summary">Ho ideato una campagna pubblicitaria su Google per un negozio di abbigliamento vintage, partendo dallo studio delle parole chiave, passando poi alla strategia e agli annunci veri e propri.</p>
              <br>
              <br>
-              <a class="button" href="https://bit.ly/3pCduFk">Guardalo</a>
+              <a class="button" href="https://bit.ly/3pCduFk" target="_blank">Guardalo</a>
             </div>
         </section>
 
         <section id="reviews" class="reviews">
             <h2>Dicono di me</h2>
             <div class="reviews-container">
-            <img class="review-1" src="assets/img/Recensione-1.png" alt="">
-            <img class="review-2" src="assets/img/Recensione-2.png" alt="">
-            <img class="review-3" src="assets/img/Recensione-3.png" alt="">
+            <img class="review-1" src="assets/img/review-1.png" alt="review-1">
+            <img class="review-2" src="assets/img/review-2.png" alt="review-2">
+            <img class="review-3" src="assets/img/review-3.png" alt="review-3">
         </div>
         </section>
 
@@ -105,22 +105,22 @@
                         <br>
                         <br>
                         <br>
-                        <div id="idLinkedInIcon" onclick="window.open('https&#58//www.linkedin.com/in/alessandrofedeli/');" title="Alessandro Fedeli">in</div>
+                        <div class="idLinkedInIcon" onclick="window.open('https&#58//www.linkedin.com/in/alessandrofedeli/');" title="Alessandro Fedeli">in</div>
                 </div>
 
                 <div class="contacts-form">
-                    <form action="">
+                    <form action="https://formspree.io/f/xzbozvrz" method="post">
                         <label class="input-label" for="">Nome</label>
                         <input class="input-field" type="text">
 
                         <label class="input-label" for="">Email</label>
-                        <input class="input-field" type="email">
+                        <input class="input-field" name="_replyto" type="email">
 
                         <label class="input-label" for="">Oggetto</label>
                         <input class="input-field" type="text">
 
                         <label class="input-label" for="">Messaggio</label>
-                        <textarea class="input-textarea" id="" cols="30" rows="10"></textarea>
+                        <textarea class="input-textarea" id="message" cols="30" rows="10" required=""></textarea>
 
                         <button class="button">Invia</button>
                     </form>
