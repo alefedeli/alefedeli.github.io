@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style1.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Start2impact - Il mio sito</title>
 <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,51 +22,45 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Chi sono <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#who-am-i">Chi sono<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Progetti migliori
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Shopify</a>
-                    <a class="dropdown-item" href="#">Facebook Ads</a>
-                    <a class="dropdown-item" href="#">Google Ads</a>
+                    <a class="dropdown-item" href="#shopify">Shopify</a>
+                    <a class="dropdown-item" href="#facebook-ads">Facebook Ads</a>
+                    <a class="dropdown-item" href="#google-ads">Google Ads</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Recensioni</a>
+                  <a class="nav-link" href="#reviews">Recensioni</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contatti</a>
+                  <a class="nav-link" href="#contacts">Contatti</a>
                 </li>
               </ul>
             </div>
             </div>
           </nav>
 
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/do-something-great.png" class="img-fluid" alt="Responsive image">
-              </div>
-              </div>
-            </div>
-          </div>
-
-
 <div class="container">
+
+  <img class="profile-pic" src="assets/img/profile.png" alt="profile-pic">
 
         <section class="hero">
             <div class="container hero-content">
                 <h1>Ciao, mi chiamo Alessandro Fedeli</h1>
+                <br>
                 <h2>Junior E-commerce Manager</h2>
+                <br>
                 <a class="button" href="https://talent.start2impact.it/profile/alessandrofedeli" target="_blank">I miei progetti</a>
-                <div class="idLinkedInIcon" onclick="window.open('https&#58//www.linkedin.com/in/alessandrofedeli/');" title="Alessandro Fedeli">in</div>
+                <a class="idLinkedInIcon" href="https&#58//www.linkedin.com/in/alessandrofedeli" target="_blank">in</a>
             </div>
         </section>
         <br>
         <br>
-<section class="who-am-i">
+<section id="who-am-i" class="who-am-i">
         <div class="who-am-i">
           <h2>Chi sono</h2>
           <p>Ho 22 anni e vivo a Milano.
@@ -90,11 +84,12 @@
               Ho quindi deciso di cambiare facoltà e affiancare al mio percorso accademico lo studio di questo ambito in tutte le sue sfaccettature.
               <br>
               <br>
-              Se vuoi entrare in contatto con me non esitare a scrivermi su LinkedIn o inviarmi un'email tramite il modulo sulla destra📧</p>                </div>
+              Se vuoi entrare in contatto con me non esitare a scrivermi su LinkedIn o inviarmi un'email tramite il modulo in fondo alla pagina📧</p> 
+           </div>
             </section>
 <br>
-        <section id="projects" class="projects">
-            <div class="project-row">
+        <section class="projects">
+            <div id="shopify" class="project-row">
                 <h2>I miei progetti migliori</h2>
               <img class="shopify" src="assets/img/shopify.png" alt="shopify">
               <h3>Shopify</h3>
@@ -103,7 +98,9 @@
               <br>
               <a class="button" href="https://bit.ly/3JvwHjW" target="_blank">Guardalo</a>
             </div>
-            <div class="project-row">
+            <br>
+            <br>
+            <div id="facebook-ads" class="project-row">
               <img class="facebook-ads" src="assets/img/facebook.png" alt="facebook-ads">
               <h3>Facebook Ads</h3>
               <p class="projects-summary">Ho sviluppato una strategia di advertising su Facebook per un e-commerce di bottiglie riutilizzabili, sia da un punto di vista strategico che creativo, a partire dalla costituzione delle buyer personas fino all'ottimizzazione di tutte le fasi del funnel.</p>
@@ -111,7 +108,9 @@
               <br>
               <a class="button" href="https://bit.ly/3mIksa1" target="_blank">Guardalo</a>
             </div>
-            <div class="project-row">
+            <br>
+            <br>
+            <div id="google-ads" class="project-row">
               <img class="google-ads" src="assets/img/google.png" alt="google-ads">
               <h3>Google Ads</h3>
               <p class="projects-summary">Ho ideato una campagna pubblicitaria su Google per un negozio di abbigliamento vintage, partendo dallo studio delle parole chiave, passando poi alla strategia e agli annunci veri e propri.</p>
@@ -123,16 +122,16 @@
 
     
 
-    <div class="container">
+    <section id="reviews" class="container">
+      <h2>Dicono di me</h2>
         <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">
-            <h2>Dicono di me</h2>
         </div>
         <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
             <li>
               <img src="assets/img/paolo-santanicchia.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
               <p class="fs-110 font-cond-l" contenteditable="false">"Alessandro è un ragazzo competente ed umile: ha gestito la mia newsletter creando flussi di benvenuto, automazioni, studiando le customer journeys ed aiutandomi ad interpretarne i dati.
-<br>
-<br>
+              <br>
+              <br>
                 Inoltre la sua ampia formazione nell'ambito del marketing mi ha permesso di confrontarmi con lui sotto molteplici aspetti per lo sviluppo del mio personal brand."</p>
               <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Paolo Santanicchia</h5>
               <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Music Advertiser</small>
@@ -146,8 +145,8 @@
             <li>
               <img src="assets/img/alessandra-cicinelli.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
               <p class="fs-110 font-cond-l" contenteditable="false">"Ho conosciuto Alessandro grazie a start2impact, la piattaforma sulla quale entrambi ci stiamo formando in tema digital marketing.
-<br>
-<br>
+              <br>
+              <br>
                 È stato un vero piacere confrontarmi con lui su vari ambiti, creando conversazioni stimolanti e di valore.
                 <br>
                 <br>
@@ -156,41 +155,38 @@
               <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Social media student @Start2impact</small>
             </li>
           </ul>
-    </div>
+    </section>
 
-        <section id="contacts" class="contacts">
+    <form action="https://formspree.io/f/xzbozvrz" method="POST">
             <div class="container contacts-content">
                         <div class="row"></div>
                         <div class="mb-3" col-md-6>
                           <h2>Contatti</h2>
                           <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1">
+                          <input type="name" name="name" class="form-control" id="exampleFormControlInput1">
                         </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1">
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Messaggio</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" name="text-area" id="exampleFormControlTextarea1" rows="3"></textarea>
                     <br>
                     <button type="submit" class="button">Invia</button>
                   </div>
-                  <div class="idLinkedInIcon" onclick="window.open('https&#58//www.linkedin.com/in/alessandrofedeli/');" title="Alessandro Fedeli">in</div>
+                  <a class="idLinkedInIcon" href="https&#58//www.linkedin.com/in/alessandrofedeli">in</a>
                   <br>
                   <br>
                 </div>
-            </div>
-    
+              </form>
             </div>
         </section>
 
         <footer class="bg-light text-center text-lg-start">
-            <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
               © 2021 Copyright Alessandro Fedeli
             </div>
-            <!-- Copyright -->
           </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
